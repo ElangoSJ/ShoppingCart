@@ -18,6 +18,11 @@ const SideDrawer = ({ show, click }) => {
 
   return (
     <div className={sideDrawerClass.join(" ")}>
+      <div className="user-div">
+        <div className="userImage">   </div>
+        <p>Elango SJ</p>
+      </div>
+      <div className="liner"></div>
       <ul className="sidedrawerlinks" onClick={click}>
         <li>
           <Link to="/cart">

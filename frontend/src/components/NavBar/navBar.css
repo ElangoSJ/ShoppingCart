@@ -16,8 +16,10 @@
 
 .navbarlinks {
   display: flex;
-  list-style: none;
-  align-items: center;
+    list-style: none;
+    align-items: center;
+    justify-content: end;
+    width: 85%;
 }
 
 .navbarlinks > li {
@@ -45,7 +47,7 @@
 }
 
 .cartlink:hover {
-  background: #dd219e;
+  background: rgb(151, 145, 145);
   color: #f4f4f4;
 }
 

@@ -53,6 +53,15 @@ const products = [
     price: 14000,
     countInStock: 10,
   },
+  {
+    name: "Sample Check",
+    imageUrl:
+      "https://images.unsplash.com/photo-1564424224827-cd24b8915874?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80",
+    description:
+      "Sample Check",
+    price: 14000,
+    countInStock: 10,
+  },
 ];
 
 module.exports = products;

@@ -16,6 +16,31 @@
   transform: translateX(0);
 }
 
+.user-div{
+display: flex;
+align-items: center;
+}
+
+.userImage{
+  background-image: url(../../assert/UserImage.png);
+  background-size: 60px 60px;
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.liner{
+  height: 1px;
+    background: antiquewhite;
+}
+
+.user-div p{
+  font-size: 25px;
+    text-align: center;
+}
+
 .sidedrawerlinks {
   display: flex;
   flex-direction: column;
